@@ -21,7 +21,11 @@ This is a React-based online library app where users can browse, search, view de
 ```bash
 git clone https://github.com/santoshv179/Online-Library-System.git
 
-
+Install dependencies---
+npm install
+npm run dev
+open to browser---
+http://localhost:5173
 
 
 
