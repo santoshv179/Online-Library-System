@@ -1,0 +1,11 @@
+.not-found{
+    text-align: center;
+    padding: 3rem;
+
+}
+.back-home{
+    display: inline-block;
+    margin-top: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}

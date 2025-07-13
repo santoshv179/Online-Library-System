@@ -1,0 +1,18 @@
+.book-details {
+  padding: 2rem;
+}
+
+.book-details h2 {
+  color: #007bff;
+}
+
+.book-details p {
+  margin-bottom: 0.8rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
