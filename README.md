@@ -19,8 +19,7 @@ This is a React-based online library app where users can browse, search, view de
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/online-library.git
-cd online-library
+git clone https://github.com/santoshv179/Online-Library-System.git
 
 
 
