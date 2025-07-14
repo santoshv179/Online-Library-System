@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import "./BookDetails.css";
 
 const BookDetails = () => {
-  const { id } = useParams();  // ✅ Sahi Tarike Se useParams ka use
+  const { id } = useParams();  
   const book = useSelector((state) =>
     state.books.find((b) => b.id === parseInt(id))
   );

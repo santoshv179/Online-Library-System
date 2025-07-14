@@ -9,6 +9,7 @@ const Home = () => {
     <div className="home">
       <h1>📖 Welcome to Online Library</h1>
       <p>Explore various book categories and discover popular books.</p>
+
       <h2>Categories:</h2>
       <ul>
         <li>Fiction</li>
@@ -16,19 +17,18 @@ const Home = () => {
         <li>Sci-Fi</li>
       </ul>
 
-      {/* ✅ Popular Books bhi Home me hi dikhani hai */}
       <h2>Popular Books</h2>
-      <ul>
+      <div className="card-grid">
         {books.map((book) => (
-          <li key={book.id}>
-            <strong>{book.title}</strong> by {book.author}
-            <Link to={`/book/${book.id}`}> ➡️ View Details</Link>
-          </li>
+          <div key={book.id} className="card">
+            <h3>{book.title}</h3>
+            <p><strong>Author:</strong> {book.author}</p>
+            <Link to={`/book/${book.id}`} className="view-link">View Details</Link>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
 
 export default Home;
-
